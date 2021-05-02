@@ -11,13 +11,9 @@
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
       </sidebar-link>
-      <sidebar-link to="/user">
-        <md-icon>person</md-icon>
-        <p>User Profile</p>
-      </sidebar-link>
-      <sidebar-link to="/table">
+      <sidebar-link to="/sellers">
         <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+        <p>Vendedores</p>
       </sidebar-link>
       <sidebar-link to="/typography">
         <md-icon>library_books</md-icon>
@@ -70,13 +66,13 @@ export default {
     DashboardContent,
     ContentFooter,
     MobileMenu,
-    FixedPlugin
+    FixedPlugin,
   },
   data() {
     return {
       sidebarBackground: "green",
-      sidebarBackgroundImage: require("@/assets/img/sidebar-2.jpg")
+      sidebarBackgroundImage: require("@/assets/img/sidebar-2.jpg"),
     };
-  }
+  },
 };
 </script>
