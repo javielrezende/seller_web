@@ -21,13 +21,13 @@ const routes = [
         component: Dashboard
       },
       {
-        path: "user",
+        path: "seller",
         name: "User Profile",
         component: UserProfile
       },
       {
-        path: "table",
-        name: "Table List",
+        path: "sellers",
+        name: "Vendedores",
         component: TableList
       },
       {
