@@ -31,6 +31,12 @@ import MaterialDashboard from "./material-dashboard";
 
 import Chartist from "chartist";
 
+// sweer alert
+import VueSweetalert2 from 'vue-sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
+
+import './plugins/axios';
+
 // configure router
 const router = new VueRouter({
   routes, // short for routes: routes
@@ -44,6 +50,7 @@ Vue.use(MaterialDashboard);
 Vue.use(GlobalComponents);
 Vue.use(GlobalDirectives);
 Vue.use(Notifications);
+Vue.use(VueSweetalert2);
 
 /* eslint-disable no-new */
 new Vue({
