@@ -2,6 +2,7 @@ import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
 import Dashboard from "@/pages/Dashboard.vue";
 import SellerProfile from "@/pages/SellerProfile.vue";
+import Sale from "@/pages/Sale.vue";
 import SellersList from "@/pages/SellersList.vue";
 import SalesList from "@/pages/SalesList.vue";
 import Typography from "@/pages/Typography.vue";
@@ -30,6 +31,11 @@ const routes = [
         path: "sellers",
         name: "Vendedores",
         component: SellersList
+      },
+      {
+        path: "sale",
+        name: "Lançar Venda",
+        component: Sale
       },
       {
         path: "sales",
