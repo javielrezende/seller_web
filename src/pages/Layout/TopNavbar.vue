@@ -1,9 +1,9 @@
 <template>
   <md-toolbar md-elevation="0" class="md-transparent">
     <div class="md-toolbar-row">
-      <div class="md-toolbar-section-start">
+      <!-- <div class="md-toolbar-section-start">
         <h3 class="md-title">{{ $route.name }}</h3>
-      </div>
+      </div> -->
       <div class="md-toolbar-section-end">
         <md-button
           class="md-just-icon md-simple md-toolbar-toggle"
@@ -16,7 +16,7 @@
         </md-button>
 
         <div class="md-collapse">
-          <div class="md-autocomplete">
+          <!-- <div class="md-autocomplete">
             <md-autocomplete
               class="search"
               v-model="selectedEmployee"
@@ -24,14 +24,14 @@
             >
               <label>Search...</label>
             </md-autocomplete>
-          </div>
-          <md-list>
-            <md-list-item href="#/">
+          </div> -->
+          <!-- <md-list> -->
+          <!-- <md-list-item href="#/">
               <i class="material-icons">dashboard</i>
               <p class="hidden-lg hidden-md">Dashboard</p>
-            </md-list-item>
+            </md-list-item> -->
 
-            <!-- <md-list-item href="#/notifications" class="dropdown">
+          <!-- <md-list-item href="#/notifications" class="dropdown">
               <drop-down>
                 <a slot="title" class="dropdown-toggle" data-toggle="dropdown">
                   <i class="material-icons">notifications</i>
@@ -48,7 +48,7 @@
               </drop-down>
             </md-list-item> -->
 
-            <li class="md-list-item">
+          <!-- <li class="md-list-item">
               <a
                 href="#/notifications"
                 class="md-list-item-router md-list-item-container md-button-clean dropdown"
@@ -74,13 +74,13 @@
                   </drop-down>
                 </div>
               </a>
-            </li>
+            </li> -->
 
-            <md-list-item href="#/user">
+          <!-- <md-list-item href="#/user">
               <i class="material-icons">person</i>
               <p class="hidden-lg hidden-md">Profile</p>
-            </md-list-item>
-          </md-list>
+            </md-list-item> -->
+          <!-- </md-list> -->
         </div>
       </div>
     </div>
@@ -100,15 +100,15 @@ export default {
         "Angela Martin",
         "Kelly Kapoor",
         "Ryan Howard",
-        "Kevin Malone"
-      ]
+        "Kevin Malone",
+      ],
     };
   },
   methods: {
     toggleSidebar() {
       this.$sidebar.displaySidebar(!this.$sidebar.showSidebar);
-    }
-  }
+    },
+  },
 };
 </script>
 
