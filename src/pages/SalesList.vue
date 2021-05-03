@@ -81,8 +81,8 @@ export default {
   methods: {
     formatData(data) {
       const formatedData = data.map((el) => {
-        if (!el.total_commission) el.total_commission = 0.0;
-        el.total_commission = "R$ " + el.total_commission;
+        el.commission_paid = "R$ " + el.commission_paid;
+        el.price = "R$ " + el.price;
         el.name = el.seller.name;
         el.email = el.seller.email;
 
