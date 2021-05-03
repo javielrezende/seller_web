@@ -12,8 +12,12 @@
         <p>Dashboard</p>
       </sidebar-link>
       <sidebar-link to="/sellers">
-        <md-icon>content_paste</md-icon>
+        <md-icon>people</md-icon>
         <p>Vendedores</p>
+      </sidebar-link>
+      <sidebar-link to="/sales">
+        <md-icon>receipt</md-icon>
+        <p>Vendas</p>
       </sidebar-link>
       <sidebar-link to="/typography">
         <md-icon>library_books</md-icon>

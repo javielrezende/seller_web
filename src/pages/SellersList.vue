@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import { SimpleTable, OrderedTable } from "@/components";
+import { SimpleTable } from "@/components";
 
 export default {
   components: {
