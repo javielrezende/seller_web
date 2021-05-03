@@ -1,8 +1,9 @@
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
 import Dashboard from "@/pages/Dashboard.vue";
-import UserProfile from "@/pages/UserProfile.vue";
-import TableList from "@/pages/TableList.vue";
+import SellerProfile from "@/pages/SellerProfile.vue";
+import SellersList from "@/pages/SellersList.vue";
+import SalesList from "@/pages/SalesList.vue";
 import Typography from "@/pages/Typography.vue";
 import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
@@ -22,13 +23,18 @@ const routes = [
       },
       {
         path: "seller",
-        name: "User Profile",
-        component: UserProfile
+        name: "Seller Profile",
+        component: SellerProfile
       },
       {
         path: "sellers",
         name: "Vendedores",
-        component: TableList
+        component: SellersList
+      },
+      {
+        path: "sales",
+        name: "Vendas",
+        component: SalesList
       },
       {
         path: "typography",
