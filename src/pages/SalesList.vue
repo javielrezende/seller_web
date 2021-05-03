@@ -11,7 +11,7 @@
           </md-card-header>
 
           <div class="md-layout-item md-size-100 text-left">
-            <md-button to="/seller" class="md-raised md-lightgreen"
+            <md-button to="/sale" class="md-raised md-lightgreen"
               >Lançar nova venda</md-button
             >
           </div>
