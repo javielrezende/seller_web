@@ -12,6 +12,8 @@ Este client foi desenvolvido em Vue.js. Documentação disponível em: <a href="
 **1**. Na raiz do projeto rodar  
 `$ docker-compose up`
   
+**2**. Configurado no docker para subir no localhost:8080
+  
 ### Acesso ao sistema sem docker  
   
 **1**. Na raiz do projeto rodar  
@@ -19,3 +21,6 @@ Este client foi desenvolvido em Vue.js. Documentação disponível em: <a href="
   
 `$ npm run dev`
   
+## IMPORTANTE
+  
+### No arquivo src/plugins/axios.js foi configurado uma instância do axios para se comunicar com o back-end. Caso o mesmo suba em uma porta diferente, alterar neste arquivo.
